@@ -1,0 +1,45 @@
+.cardg {
+  background: #fcfcfc;
+  border: none;
+  box-shadow: 0 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+  border-radius: 0.625rem;
+  /* width: 13.625rem; */
+  width: max-content;
+  height: 5.625rem;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.6rem;
+  color: #17a7ae;
+}
+
+.card-container {
+  /* display: flex */
+  /* justify-content: center;
+    align-items: center; */
+
+  margin: 0rem 0.002rem;
+}
+
+.card-image {
+  width: 100%;
+  /* width: 5.9rem; */
+  height: 4.25rem;
+  object-fit: contain; /* Make the image fill the card, cropping if necessary */
+  /* margin-left: 1rem; */
+  overflow: hidden;
+  padding: 0.2rem;
+
+  /* margin-right: 6rem; */
+}
+.graph-card-image-container {
+  /* background-color: blue; */
+  width: 60%;
+}
+#graphCardBody {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.graph-card-text-container {
+  width: 100%;
+}

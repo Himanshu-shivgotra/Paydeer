@@ -1,0 +1,78 @@
+.dotted-line {
+  margin-top: 2rem;
+  border: none;
+  border-top: 1px dashed #6e6f71;
+  position: relative;
+
+  height: 0;
+  width: 19.8rem;
+}
+
+.dotted-line::after,
+.dotted-line::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #6e6f71;
+  position: absolute;
+  top: -3px;
+}
+
+.dotted-line::after {
+  left: -4px;
+}
+
+.dotted-line::before {
+  right: -4px;
+}
+
+.piechar_card-title {
+  margin-top: revert;
+  color: var(--button-blue);
+}
+
+.chart-legend {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  /* padding-top: 2rem; */
+  width: max-content;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 1.56rem;
+  height: 1.12rem;
+  margin-right: 5px;
+  border-radius: 2px;
+}
+
+.legend-value {
+  color: var(--color-secondary);
+  line-height: 0.9rem;
+}
+
+.piechart__container {
+  background: var(--light-grey-bg);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 27rem;
+  height: 18rem;
+  right: 50rem;
+}
+
+.piechart__section {
+  margin-top: 1rem;
+}
+
+.legend-item {
+  /* margin-top: 0.5rem; */
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.52px;
+}
+
+.piechart {
+  width: 8rem;
+  height: 8rem;
+}

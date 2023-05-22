@@ -1,0 +1,94 @@
+.input_container {
+  border-radius: 0.4.rem;
+  height: 2.87rem;
+  width: 13.81rem;
+}
+.form_container {
+  padding: 0.8rem;
+  background-color: var(--light-grey-bg);
+  border-radius: 10px;
+  width: 30.5rem;
+  /* max-height: 34.25rem; */
+  height: auto;
+}
+
+.form_container-2,
+.input-container-2 {
+  border-radius: 0.4rem;
+  height: 2.7rem;
+  width: 9rem;
+}
+
+.input_box {
+  height: 46px;
+}
+
+.feedback_box {
+  height: 3.2rem;
+  width: 28.5rem;
+}
+
+.remark_text {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.bottom_heading {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.bottom_heading-2 {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  color: var(--color-black);
+}
+
+.request_btn {
+  font-size: 12px;
+  line-height: 15px;
+  /* text-align: center; */
+  color: var(--color-white);
+  background: var(--color-secondary);
+  border-radius: 200px;
+  height: 2.18rem;
+  width: 7.75rem;
+}
+
+.help_btn {
+  color: var(--color-white);
+  background: var(--color-secondary);
+  border-radius: 200px;
+  width: 98.59px;
+  height: 26.7px;
+}
+
+/* choose file button  */
+
+.file-input {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.file-input input[type="file"] {
+  position: absolute;
+  width: 67rem;
+  cursor: pointer;
+}
+
+.file-label {
+  /* display: inline-block;  */
+  padding: 0.4rem 1rem;
+  font-size: 8px;
+  line-height: 10px;
+  text-align: center;
+  background: var(--button-blue);
+  border-radius: 10px;
+  color: var(--color-white);
+  cursor: pointer;
+}

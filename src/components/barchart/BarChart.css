@@ -1,0 +1,54 @@
+.cont {
+  width: 100vh;
+}
+.contain {
+  width: 100vh;
+}
+/* .apexcharts-legend.apx-legend-position-bottom.apexcharts-align-center, .apexcharts-legend.apx-legend-position-top.apexcharts-align-center{
+  inset: auto 0px 380px !important;
+ 
+} */
+
+/* .chart{
+ 
+  background-color: rgb(255,255,255);
+   border-radius:12px;
+   color:rgb(58,180,186);
+   cursor: pointer;
+   border: none;
+   font-size: medium;
+  
+   
+} */
+.chart-buttons {
+  display: flex;
+  justify-content: end;
+  width: 97%;
+}
+
+.chart {
+  border-radius: 12px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(58, 180, 186);
+  font-size: x-small;
+  cursor: pointer;
+  border: none;
+  padding: 0%;
+}
+
+.text {
+  color: rgb(58, 180, 186);
+  font-size: small;
+  font-weight: 600;
+  margin: 40px 20px 10px 10px;
+}
+.apexcharts-legend {
+  position: inherit !important;
+  font-size: x-small;
+}
+.apexcharts-legend-text {
+  color: rgb(0, 159, 211) !important;
+  font-size: 10px !important;
+  font-weight: 600 !important;
+  font-family: Helvetica, Arial, sans-serif;
+}

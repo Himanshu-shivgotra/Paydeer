@@ -1,0 +1,49 @@
+.distributed-dotted-line {
+  border: none;
+  border-top: 1px dashed var(--color-grey);
+  position: relative;
+  margin-left: 0.1rem;
+  height: 0;
+  width: 14.18rem;
+}
+
+.distributed-dotted-line::after,
+.distributed-dotted-line::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--color-grey);
+  position: absolute;
+  top: -3px;
+}
+
+.distributed-dotted-line::after {
+  left: -4px;
+}
+
+.distributed-dotted-line::before {
+  right: -4px;
+}
+
+.container__distributor {
+  box-shadow: 0px 4px 4px 0px #00000040;
+  width: 16rem;
+  height: auto;
+}
+
+.distributor-title {
+  color: var(--color--grey);
+}
+
+.distributor-text {
+  color: var(--color-secondary);
+  font-size: 1.9rem;
+}
+
+.distributor-inc {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--color-green);
+}
