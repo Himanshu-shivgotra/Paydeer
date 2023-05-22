@@ -9,33 +9,24 @@ const MainPage = () => {
   return (
     <>
       <div
-        className="  Main-dashboard"
+        className="container  Main-dashboard"
         style={{
           width: "75vw",
         }}
       >
-        <div
-          className="dashboard_row-1"
-          style={{
-            width: "100%",
-          }}
-        >
+        <div className="dashboard_row-1">
           <GraphCards />
         </div>
 
         <div
-          className="dashboard_row-2 row d-flex flex-row  justify-content-center container-fluid "
+          className="dashboard_row-2 d-flex flex-wrap"
           //   className=" row d-flex flex-row  justify-content-center container-fluid "
-          style={{ marginRight: "1rem" }}
         >
-          <div className=" container col-8">
-            <BbpsServices />
-          </div>
-          <div className=" container col-4">
-            <PieChartCard />
-          </div>
+          <BbpsServices />
+
+          <PieChartCard />
         </div>
-        <div className="dashboard_row-3 d-flex flex-wrap justify-content-around">
+        <div className="dashboard_row-3 d-flex flex-wrap">
           <BarChart />
           <Distributor />
         </div>

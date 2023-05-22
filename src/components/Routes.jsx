@@ -8,12 +8,12 @@ export { Routes };
 
 const MyRoutes = () => {
   return (
-    <div className="p-4">
+    <>
       <Routes>
         <Route exact path="/" element={<MainPage />} />
         <Route exact path="banking" element={<WalletRequest />}></Route>
       </Routes>
-    </div>
+    </>
   );
 };
 

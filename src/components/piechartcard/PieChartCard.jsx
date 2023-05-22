@@ -52,7 +52,7 @@ const PieChartCard = () => {
 
   return (
     <>
-      <div className="card.">
+      <div className="card">
         <div className="card-body piechart__container d-flex flex-column align-items-center">
           <h5 className="piechar_card-title">All Services</h5>
           <div className="dotted-line"></div>

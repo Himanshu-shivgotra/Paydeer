@@ -28,7 +28,7 @@
 }
 
 .piechar_card-title {
-  margin-top: revert;
+  margin-top: 1rem;
   color: var(--button-blue);
 }
 
@@ -58,7 +58,7 @@
   border-radius: 10px;
   width: 27rem;
   height: 18rem;
-  right: 50rem;
+  /* right: 50rem; */
 }
 
 .piechart__section {

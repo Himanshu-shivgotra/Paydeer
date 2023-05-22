@@ -4,22 +4,7 @@
 .contain {
   width: 100vh;
 }
-/* .apexcharts-legend.apx-legend-position-bottom.apexcharts-align-center, .apexcharts-legend.apx-legend-position-top.apexcharts-align-center{
-  inset: auto 0px 380px !important;
- 
-} */
 
-/* .chart{
- 
-  background-color: rgb(255,255,255);
-   border-radius:12px;
-   color:rgb(58,180,186);
-   cursor: pointer;
-   border: none;
-   font-size: medium;
-  
-   
-} */
 .chart-buttons {
   display: flex;
   justify-content: end;

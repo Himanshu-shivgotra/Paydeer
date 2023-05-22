@@ -6,7 +6,7 @@ import arrowIcon from "../../svg/Arrow-icon.svg";
 const Distributor = () => {
   return (
     <>
-      <div className="container__distributor">
+      <div className=" card container__distributor col-3">
         <div className="distributor-body m-4">
           <h5 className="distributor-title">Distributors</h5>
           <div className="distributor-values d-flex justify-content-between">

@@ -65,57 +65,45 @@ function Graph() {
   };
 
   return (
-    <div className="App">
-      <div className="row">
-        <div
-          className=""
-          style={{
-            border: "1px solid bfbfbf",
-            borderRadius: "20px",
-            boxShadow: "-8px 3px 17px 0px",
-            width: "40rem",
-          }}
-        >
-          <div className="chart-container">
-            <p className="text">Commission Report</p>
-            <div className="chart-buttons">
-              <button
-                className="chart"
-                onClick={() => handleChartTypeChange("month")}
-              >
-                Month |
-              </button>
-              <button
-                className="chart"
-                onClick={() => handleChartTypeChange("year")}
-              >
-                Year |
-              </button>
-              <button
-                className="chart"
-                onClick={() => handleChartTypeChange("above")}
-              >
-                Year++
-              </button>
-            </div>
-            <Chart
-              options={{
-                colors: ["#c99f19", "#17a7ae"],
-                xaxis: {
-                  categories: chartData[chartType].categories,
-                },
-                yaxis: {
-                  min: 0,
-                  max: 38,
-                },
-              }}
-              series={chartData[chartType].series}
-              type="bar"
-              width="100%"
-              height="230vh"
-            />
-          </div>
+    <div className="barchart_row card col-9">
+      <div className="  chart-container">
+        <p className="text">Commission Report</p>
+        <div className="chart-buttons">
+          <button
+            className="chart"
+            onClick={() => handleChartTypeChange("month")}
+          >
+            Month |
+          </button>
+          <button
+            className="chart"
+            onClick={() => handleChartTypeChange("year")}
+          >
+            Year |
+          </button>
+          <button
+            className="chart"
+            onClick={() => handleChartTypeChange("above")}
+          >
+            Year++
+          </button>
         </div>
+        <Chart
+          options={{
+            colors: ["#c99f19", "#17a7ae"],
+            xaxis: {
+              categories: chartData[chartType].categories,
+            },
+            yaxis: {
+              min: 0,
+              max: 38,
+            },
+          }}
+          series={chartData[chartType].series}
+          type="bar"
+          width="100%"
+          height="230vh"
+        />
       </div>
     </div>
   );
