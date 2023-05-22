@@ -5,7 +5,7 @@ const GraphCard = ({ src }) => {
   return (
     <div className="card cardg">
       <div className="card-body">
-        <div id="graphCardBody" className="d-flex ">
+        <div id="graphCardBody">
           <div className="graph-card-text-container">
             <h5
               style={{

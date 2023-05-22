@@ -9,24 +9,24 @@ const MainPage = () => {
   return (
     <>
       <div
-        className="container  Main-dashboard"
+        className="container  Main-dashboard flex-wraps"
         style={{
           width: "75vw",
         }}
       >
-        <div className="dashboard_row-1">
+        <div className="dashboard_row-1 d-flex">
           <GraphCards />
         </div>
 
         <div
-          className="dashboard_row-2 d-flex flex-wrap"
+          className="dashboard_row-2 d-flex "
           //   className=" row d-flex flex-row  justify-content-center container-fluid "
         >
           <BbpsServices />
 
           <PieChartCard />
         </div>
-        <div className="dashboard_row-3 d-flex flex-wrap">
+        <div className="dashboard_row-3 d-flex">
           <BarChart />
           <Distributor />
         </div>
